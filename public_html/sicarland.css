@@ -1,13 +1,12 @@
+/*sigue probándose el height de la imagen*/
 .presentation {
     max-width: 100%;
     width: 100%;
+    
+    
 }
 
 .logosicar {
     position: relative;
-    left: 30px;
-}
-
-body {
-    background-color: grey;
+    left: 50px;
 }
