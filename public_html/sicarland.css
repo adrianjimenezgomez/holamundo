@@ -1,4 +1,5 @@
 /*sigue probándose el height de la imagen*/
+
 .presentation {
     max-width: 100%;
     width: 100%;
@@ -9,4 +10,8 @@
 .logosicar {
     position: relative;
     left: 50px;
+}
+.experience_ {
+    text-align: center;
+    
 }
