@@ -13,18 +13,21 @@ se conectaran a este archivo para la busqueda...
     box-sizing: border-box;
 }
 
+/*
 .search_menu{
     margin: 40px 50px;
     position: relative;
     z-index: 10;
 }
-
-#iconmenu{
-    vertical-align: top;
-    width: 20px;
-    cursor: pointer;
+*/
+.search_menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
 }
 
+/*
 .search_menu{
     background-color: #474343;
     box-shadow: 2px 0px 5px 2px rgb(66,66,66);
@@ -35,18 +38,20 @@ se conectaran a este archivo para la busqueda...
     left: 0;
     transition: all .5s ease;
 }
+*/
 
+/*
 .search_menu ul{
     padding: 100px 0px 20px 0px;
     list-style: none;
 }
+*/
 
 .search_menu ul li{
     color: white;
-    display: block;
-    font-size: 25px;
+    display: inline-block;
     text-decoration: none;
-    padding: 10px 50px;
+    padding: 10px;
     cursor: pointer;
 }
 
