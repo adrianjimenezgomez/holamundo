@@ -15,3 +15,10 @@
     text-align: center;
     
 }
+
+#principal_header{
+    background: #333;
+    color: white;
+    height: 80 px;
+}
+
