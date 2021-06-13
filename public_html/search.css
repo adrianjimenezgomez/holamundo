@@ -13,6 +13,11 @@ se conectaran a este archivo para la busqueda...
     box-sizing: border-box;
 }
 
+li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
 /*
 .search_menu{
     margin: 40px 50px;
@@ -55,8 +60,9 @@ se conectaran a este archivo para la busqueda...
     cursor: pointer;
 }
 
+
 .search_menu ul li:hover{
-    background-color: rgb(228,228,288);
+    background-color: black;
     color: rgb(42,42,42);
 }
 
@@ -69,4 +75,10 @@ se conectaran a este archivo para la busqueda...
 .opacity{
     background-color: rgba(0,0,0,0.5);
     transition: all .5s ease;
+}
+
+.nav_main {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
