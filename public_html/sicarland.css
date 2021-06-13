@@ -3,17 +3,20 @@
 .presentation {
     max-width: 100%;
     width: 100%;
-    
+    position: relative;
+    display: inline-block;
     
 }
 
-.logosicar {
+/*.logosicar {
     position: relative;
     left: 50px;
 }
+*/
 .experience_ {
     text-align: center;
-    
+    background: url('images/sicarpv.png');
+
 }
 
 #principal_header{
@@ -22,3 +25,9 @@
     height: 80 px;
 }
 
+.experience_{
+    position: static;
+    right: 50%;
+    font-size: 30px;
+    color: black;
+}
